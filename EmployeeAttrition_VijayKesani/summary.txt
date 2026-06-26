@@ -1,0 +1,29 @@
+# Employee Attrition Prediction – Executive Summary
+
+## Project Overview
+
+Employee attrition is a major challenge for organizations because replacing experienced employees requires significant time, cost, and effort. This project analyzed employee data from IBM HR Analytics to identify the key factors influencing employee attrition and to predict which employees are more likely to leave the company. The goal is to provide HR teams with actionable insights that support better employee retention and workforce planning.
+
+## Key Findings
+
+The analysis showed that employee attrition is relatively low overall but is not evenly distributed across the organization. Employees working in Sales-related roles experienced higher attrition than many other departments. Employees in the early years of their employment also showed a greater likelihood of leaving the company.
+
+Monthly income was one factor associated with attrition, as employees with lower salaries tended to leave more frequently. However, salary alone was not the primary reason for employee turnover. Other workplace factors such as job satisfaction, overtime, work-life balance, years at the company, and overall job involvement also had a strong influence on an employee's decision to leave.
+
+The machine learning models successfully identified employees who were at higher risk of leaving. Among the models tested, the Random Forest model provided the strongest predictive performance by capturing complex relationships between employee characteristics and attrition.
+
+## Business Recommendations
+
+To reduce employee turnover, HR should focus on employees during their first few years with the company by providing structured onboarding, mentoring, career development opportunities, and regular performance discussions.
+
+Special attention should be given to departments and job roles with consistently higher attrition rates. Conducting regular employee engagement surveys and stay interviews can help identify concerns before employees decide to resign.
+
+Improving work-life balance through flexible work policies, manageable workloads, and employee wellness initiatives may also contribute to higher employee satisfaction and retention. Reviewing compensation for employees in critical positions can further reduce the risk of losing valuable talent.
+
+## Model Limitation
+
+Although the model predicts employee attrition with good accuracy, it relies only on historical HR data. It cannot account for personal circumstances, external job opportunities, economic conditions, or other factors that are not recorded in the dataset. Therefore, the model should be used as a decision-support tool rather than the sole basis for HR decisions.
+
+## Conclusion
+
+This project demonstrates that machine learning can help HR teams identify employees who may be at risk of leaving before attrition occurs. By focusing on the key factors influencing employee turnover and implementing targeted retention strategies, organizations can improve employee satisfaction, reduce recruitment costs, and maintain a more stable and productive workforce.
